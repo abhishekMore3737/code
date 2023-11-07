@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: white;
+        }
+        .sidebar{
+            height: 100%;
+            width: 250px;
+            top: 0;
+            left: 0;
+            position: fixed;
+            background-color: black;
+            padding-top: 10px;
+        }
+        .content{
+            margin-left: 250px;
+            padding-left: 10px;
+        }
+        .card{
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 0 1px 2px black;
+
+        }
+        .card-title{
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        .card-body{
+            margin-left: 0;
+        }
+        a{
+            font-size: 25px;
+            color: white;
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .sidebar{
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            .content{
+                margin-left: 0;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <a  href="#">Dashboard</a><br>
+            <a  href="#">Student</a><br>
+            <a  href="#">Course</a><br>
+            <a  href="#">Facualty</a><br>
+
+        </ul>
+    </div>
+    <div class="content">
+        <h1>⁕ Dashboard</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-title">
+                        <h1>Total Student</h1>
+                    </div>
+                    <div classs="card-title">
+                        <h3>5000</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-title">
+                        <h1>Total Course</h1>
+                    </div>
+                    <div classs="card-title">
+                        <h3> 10 </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-title">
+                        <h1>Total Facualty</h1>
+                    </div>
+                    <div classs="card-title">
+                        <h3> 50 </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    
+            
+    
+    
+</body>
+</html>
